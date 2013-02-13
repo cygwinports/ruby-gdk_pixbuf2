@@ -1,7 +1,11 @@
-NAME="ruby-gdk_pixbuf2"
-VERSION=1.1.8
-RELEASE=1
 inherit rubygem
 
+NAME="ruby-gdk_pixbuf2"
+VERSION=1.2.1
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Ruby GdkPixbuf bindings"
+DESCRIPTION="Ruby/GdkPixbuf2 is a Ruby binding of GdkPixbuf-2.x."
+HOMEPAGE="http://ruby-gnome2.sourceforge.jp/"
 
 DEPS_PATH="/usr/lib/ruby/gems/${RUBY_VERSION}/gems/glib2-*/lib"
