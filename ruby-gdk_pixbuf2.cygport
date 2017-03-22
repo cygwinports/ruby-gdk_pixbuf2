@@ -9,7 +9,7 @@ DESCRIPTION="Ruby/GdkPixbuf2 is a Ruby binding of GdkPixbuf-2.x."
 HOMEPAGE="http://ruby-gnome2.sourceforge.jp/"
 
 PKG_NAMES="${NAME} ${NAME}-doc"
-ruby_gdk_pixbuf2_OBSOLETES="${NAME}-devel"
+ruby_gdk_pixbuf2_OBSOLETES="${NAME}-devel ${NAME}-debuginfo"
 ruby_gdk_pixbuf2_CONTENTS="--exclude=sample ${RUBYGEM_INSTDIR#/} ${RUBYGEM_SPEC#/}"
 ruby_gdk_pixbuf2_doc_CONTENTS="${RUBYGEM_DOCDIR#/} ${RUBYGEM_INSTDIR#/}/sample/"
 
